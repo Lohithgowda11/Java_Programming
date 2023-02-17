@@ -14,10 +14,10 @@ public class To_lowercase
 		{
 			char ch =str.charAt(i);
 			int x=(int)ch;
-			ans=ans+(char)(x-32);
+			ans=ans+(char)(x+32);
 			
 		}
-		System.out.println("To upper case......"+ans);
+		System.out.println("To lower case......"+ans);
 		
 	}
 
